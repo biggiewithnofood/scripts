@@ -1,7 +1,0 @@
---[[
-       fr im bad scripter but starting to learn
-       made by me uh#0697
-       if u have low fps like less than 20 may not work
-       uses tween service, probably no logs
-                                                         ]]--
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RapperDeluxe/scripts/main/iouxvbztjcon", true))()
