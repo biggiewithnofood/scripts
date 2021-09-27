@@ -1,0 +1,6 @@
+--usa-rage crack???
+
+local mes = "yeah i didnt even make script fully"
+local plr = game.Players.LocalPlayer
+
+plr:Kick("".. mes .. "")
