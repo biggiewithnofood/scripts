@@ -1,9 +1,11 @@
 --usa-rage crack???
 --this kick script was actually made long for fun
+--imagine using this really simple script, if you actually want just use this = game.Players.LocalPlayer:Kick("your message")
 
 local game = game
 local players = game.Players
 local localplayer = players.LocalPlayer
 local mes = "yeah i didnt even make script fully"
 
-localplayer:Kick("".. mes .. "")
+localplayer:Kick("" .. mes .. "")
+print("the message was " .. mes .. " actually")
