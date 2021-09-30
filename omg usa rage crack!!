@@ -1,6 +1,9 @@
 --usa-rage crack???
+--this kick script was actually made long for fun
 
+local game = game
+local players = game.Players
+local localplayer = players.LocalPlayer
 local mes = "yeah i didnt even make script fully"
-local plr = game.Players.LocalPlayer
 
-plr:Kick("".. mes .. "")
+localplayer:Kick("".. mes .. "")
