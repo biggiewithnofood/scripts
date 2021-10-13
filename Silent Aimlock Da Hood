@@ -6,7 +6,7 @@ getgenv().Prediction = 0.165 -- Prediction of Silent Aim and AimLock
 getgenv().AimLockKeybind = Enum.KeyCode.E -- Keybind for AIMLOCK (NOT SILENT AIM)
 
 -- // Dependencies
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Aiming/Module.lua"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/RapperDeluxe/scripts/main/silent%20aim%20module"))()
 Aiming.TeamCheck(false)
 
 -- // Services
