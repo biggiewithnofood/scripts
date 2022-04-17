@@ -1,4 +1,3 @@
--- credits to bru#6621, if not ill rape u so hard
 
 local lp = game:FindService("Players").LocalPlayer
 
@@ -40,6 +39,7 @@ local targetcash = Instance.new("Frame")
 local TextBox = Instance.new("TextBox")
 local cash = Instance.new("TextLabel")
 local cash_2 = Instance.new("TextButton")
+local qwg = 999999999999999999999999999999999999
 local cash_3 = Instance.new("TextButton")
 local cash_4 = Instance.new("TextButton")
 local cash_5 = Instance.new("TextButton")
@@ -737,7 +737,7 @@ local AppendName = function(plr)
                     Name.BorderSizePixel = 0
                     Name.Position = UDim2.new(0.5, 0, 0.5, 0)
                     Name.Size = UDim2.new(1, 30, 1, 0)
-                    --credits to bru#6621, if not ill rape u so hard
+                    
                     Name.Font = Enum.Font.SourceSans
                     Name.Text = plr.DisplayName..'\n['..tostring(plr.Name)..']'
                     Name.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -772,7 +772,6 @@ if m == ".rev" then
 local revolver = game:GetService("Workspace").Ignored.Shop["[Revolver] - $1300"].Head
 local clickdetector = game:GetService("Workspace").Ignored.Shop["[Revolver] - $1300"].ClickDetector
 local lp = game.Players.LocalPlayer
--- credits to bru#6621, if not ill rape u so hard
 local sp = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = revolver.CFrame
 wait(0.2)
@@ -794,11 +793,10 @@ elseif m == ".crash" then
 		{
 			Name = "[Revolver]",
 			Ammo = game.Players.LocalPlayer.DataFolder.Information.MuscleInformation,
-			MaxAmmo = {Value = 9999999999999999999 * 9}
+			MaxAmmo = {Value = qwg * 9}
 		}
 		)
 wait(2)
-game.Players.LocalPlayer.Character.Head:Destroy() -- credits to bru#6621, if not ill rape u so hard
--- credits to bru#6621, if not ill rape u so hard
+game.Players.LocalPlayer.Character.Head:Destroy()
 end
 end)
