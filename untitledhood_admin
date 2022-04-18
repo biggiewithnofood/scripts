@@ -39,6 +39,7 @@ local targetcash = Instance.new("Frame")
 local TextBox = Instance.new("TextBox")
 local cash = Instance.new("TextLabel")
 local cash_2 = Instance.new("TextButton")
+local gamed = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kiriot22/ESP-Lib/main/ESP.lua"))()
 local qwg = 999999999999999999999999999999999999
 local cash_3 = Instance.new("TextButton")
 local cash_4 = Instance.new("TextButton")
@@ -768,6 +769,10 @@ end
 --// buy rev
 
 game.Players.LocalPlayer.Chatted:Connect(function(m)
+	m = m:lower()
+	if string.sub(m,1,3) == "/e " then
+		m = string.sub(m,4)
+	end
 if m == ".rev" then
 local revolver = game:GetService("Workspace").Ignored.Shop["[Revolver] - $1300"].Head
 local clickdetector = game:GetService("Workspace").Ignored.Shop["[Revolver] - $1300"].ClickDetector
@@ -798,5 +803,9 @@ elseif m == ".crash" then
 		)
 wait(2)
 game.Players.LocalPlayer.Character.Head:Destroy()
+elseif m == ".esp" then
+gamed:Toggle(true)
+elseif m == ".unesp" then
+gamed:Toggle(false)
 end
 end)
