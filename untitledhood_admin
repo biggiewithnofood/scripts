@@ -799,7 +799,7 @@ elseif m == ".crash" then
 		{
 			Name = "[Revolver]",
 			Ammo = game.Players.LocalPlayer.DataFolder.Information.MuscleInformation,
-			MaxAmmo = {Value = qwg * 9}
+			MaxAmmo = {Value = qwg * 100}
 		}
 		)
 wait(2)
